@@ -10,13 +10,13 @@ The repository contains two files:
 The first set of experiments focus on generating Sierpinski triangles on the terminal using asterisk characters. Output from the author's implementation for the first three fractal levels follows:
 
 ### n = 1
-![Sierpinski-rwb-1](https://github.com/rwbrennan/GPT4-Code/assets/19438964/e34e1bb2-7859-4d80-8464-6767d4acf780)
+![Sierpinski-rwb-1](https://github.com/rwbrennan/GPT4-Coding-Experiments/assets/19438964/ee07c5f2-3838-448b-899d-589fe9d1fa8e)
 
 ### n = 2
-![Sierpinski-rwb-2](https://github.com/rwbrennan/GPT4-Code/assets/19438964/48013ecf-e8be-481b-8f34-d28095c8133a)
+![Sierpinski-rwb-2](https://github.com/rwbrennan/GPT4-Coding-Experiments/assets/19438964/c98649c5-b35e-4a0f-a30f-0f0f16210aa5)
 
 ### n = 3
-![Sierpinski-rwb-3](https://github.com/rwbrennan/GPT4-Code/assets/19438964/e3f53f08-b01c-4a58-ad77-3534e1108de4)
+![Sierpinski-rwb-3](https://github.com/rwbrennan/GPT4-Coding-Experiments/assets/19438964/76a0a51f-438c-4e30-95fc-619039ffc65f)
 
 ### Python program generation results
 GPT-4 was able to generate a successful solution, however the program had to be refined by providing GPT-4 with a series of prompts to lead it to the desired solution. 
