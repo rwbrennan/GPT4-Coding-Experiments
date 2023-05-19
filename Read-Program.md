@@ -95,11 +95,11 @@ This Python program creates a fractal pattern using asterisks (*) based on the g
 
 The program has three main functions:
 
-1. `print_row(row, height, level)`: This function prints the upper half of the fractal pattern.
+1. 'print_row(row, height, level)': This function prints the upper half of the fractal pattern.
 
-2. `print_row_inverted(row, height, level)`: This function prints the lower half of the fractal pattern.
+2. 'print_row_inverted(row, height, level)': This function prints the lower half of the fractal pattern.
 
-3. `main()`: This function handles the input validation and calls the other two functions to print the complete fractal pattern.
+3. 'main()': This function handles the input validation and calls the other two functions to print the complete fractal pattern.
 
 The program takes two command line arguments:
 
@@ -131,5 +131,5 @@ What type of fractal pattern does this program produce?
 
 This program produces a Sierpinski triangle fractal pattern. The Sierpinski triangle is a self-similar pattern composed of smaller equilateral triangles arranged in a larger equilateral triangle. The pattern is created by recursively removing the middle triangle from the larger triangle at each level of the fractal.
 
-In this program, the fractal pattern is created using asterisks (*) and spaces. The height (h) and level (l) of the fractal pattern are given as command line arguments. The program then prints the Sierpinski triangle pattern accordingly.
+In this program, the fractal pattern is created using asterisks (`*`) and spaces. The height (h) and level (l) of the fractal pattern are given as command line arguments. The program then prints the Sierpinski triangle pattern accordingly.
 
