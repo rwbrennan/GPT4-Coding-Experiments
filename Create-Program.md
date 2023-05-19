@@ -41,7 +41,8 @@ This code defines a function 'sierpinski_triangle' that generates the points of 
 ## Program Output 1:
 The Prompt 1 completion ran with no errors, but produced triangles of varying height. The output for n = 1 is shown below:
 
-![Sierpinski-GPT4-T1-n4](https://github.com/rwbrennan/GPT4-Code/assets/19438964/af78bdb1-30e9-42b9-bdf2-e6400f83f40f)
+![Sierpinski-GPT4-T1-n4](https://github.com/rwbrennan/GPT4-Coding-Experiments/assets/19438964/46af4b54-17ef-4f6e-838a-c3c6f9f7a108)
+
 
 ## Prompt 2:
 ```
@@ -87,11 +88,13 @@ You can change the 'height' and 'order' variables to generate a Sierpinski trian
 ## Program Output 2:
 The Prompt 2 completion ran with no errors and generated the output shown below:
 ### n = 1
-![Sierpinski-GPT4-T2-n1](https://github.com/rwbrennan/GPT4-Code/assets/19438964/4a8c690b-63be-4b1c-8d69-c6782109c9d7)
+![Sierpinski-GPT4-T2-n1](https://github.com/rwbrennan/GPT4-Coding-Experiments/assets/19438964/02d37da9-08a2-403a-9c72-e98a3a5a4a0e)
+
 ### n = 2
-![Sierpinski-GPT4-T2-n2](https://github.com/rwbrennan/GPT4-Code/assets/19438964/b62ed08d-dc8a-4931-acdb-936ba121260e)
+![Sierpinski-GPT4-T2-n2](https://github.com/rwbrennan/GPT4-Coding-Experiments/assets/19438964/3d0bca2f-7c65-44f0-b029-38d62476d140)
+
 ### n = 3
-![Sierpinski-GPT4-T2-n3](https://github.com/rwbrennan/GPT4-Code/assets/19438964/202212bf-8da0-413c-89e0-3d8ceff07bdd)
+![Sierpinski-GPT4-T2-n3](https://github.com/rwbrennan/GPT4-Coding-Experiments/assets/19438964/2cffd83f-7d6a-43fa-8efb-e459206cb4fc)
 
 ## Prompt 3:
 ```
@@ -144,11 +147,13 @@ You can change the 'height' and 'order' variables to generate a Sierpinski trian
 The Prompt 3 completion ran with no errors and generated the output shown below:
 
 ### n = 1
-![Sierpinski-GPT4-T3-n1](https://github.com/rwbrennan/GPT4-Code/assets/19438964/bec4b53e-ed88-4127-b1a3-fcdc8ae92204)
+![Sierpinski-GPT4-T3-n1](https://github.com/rwbrennan/GPT4-Coding-Experiments/assets/19438964/33aefcdf-604d-41b1-a63c-ca898697ae76)
+
 ### n = 2
-![Sierpinski-GPT4-T3-n2](https://github.com/rwbrennan/GPT4-Code/assets/19438964/42147537-4f6d-4b7f-b68e-5c1edafb9780)
+![Sierpinski-GPT4-T3-n2](https://github.com/rwbrennan/GPT4-Coding-Experiments/assets/19438964/9ef3ce96-7052-4f01-a089-947898bb5fc0)
+
 ### n = 3
-![Sierpinski-GPT4-T3-n3](https://github.com/rwbrennan/GPT4-Code/assets/19438964/44410f97-1f5f-42b4-8f80-c0fcdbf40e3f)
+![Sierpinski-GPT4-T3-n3](https://github.com/rwbrennan/GPT4-Coding-Experiments/assets/19438964/7534d206-0c7f-4b3a-8a29-bb8f806877b4)
 
 ## Prompt 4:
 ```
@@ -202,11 +207,11 @@ You can change the 'height' and 'order' variables to generate an equilateral Sie
 ## Program Output 4:
 The Prompt 3 completion ran with no errors and generated the output shown below:
 ### n = 1
-![Sierpinski-GPT4-T4-n1](https://github.com/rwbrennan/GPT4-Code/assets/19438964/8766fd25-2f68-4e80-92a7-04f4b38fb3c9)
+![Sierpinski-GPT4-T4-n1](https://github.com/rwbrennan/GPT4-Coding-Experiments/assets/19438964/89016748-ca52-4cb1-bf99-00d3f5c4e08d)
 
 ### n = 2
-![Sierpinski-GPT4-T4-n2](https://github.com/rwbrennan/GPT4-Code/assets/19438964/e3453fbd-fe74-473a-a870-29588b37416e)
+![Sierpinski-GPT4-T4-n2](https://github.com/rwbrennan/GPT4-Coding-Experiments/assets/19438964/82c458f0-97ce-4747-97b8-54cabad2a23a)
 
 ### n = 3
-![Sierpinski-GPT4-T4-n3](https://github.com/rwbrennan/GPT4-Code/assets/19438964/3c9c9f65-88a9-49f2-b69e-02b238ecb160)
+![Sierpinski-GPT4-T4-n3](https://github.com/rwbrennan/GPT4-Coding-Experiments/assets/19438964/e51ee8b0-102b-4293-b0d7-eea2d7570aa0)
 
