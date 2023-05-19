@@ -90,7 +90,7 @@ if __name__ == "__main__":
   main()
 ```
 ## Response 1:
-```
+
 This Python program creates a fractal pattern using asterisks (*) based on the given height (h) and level (l) input as command line arguments.
 
 The program has three main functions:
@@ -109,7 +109,7 @@ The program takes two command line arguments:
 The program first validates the input arguments and then calculates the height of the triangle (tri_height) by dividing the height (h) by 2 and rounding it up. It then prints the upper half of the fractal pattern using the `print_row()` function and the lower half using the `print_row_inverted()` function.
 
 Here's an example of the output for height (h) = 7 and level (l) = 2:
-
+```
    *   
   * *  
  *   * 
@@ -128,9 +128,8 @@ As a basis of comparison, the output from the author's program for h = 7 and l =
 What type of fractal pattern does this program produce?
 ```
 ## Response 2:
-```
+
 This program produces a Sierpinski triangle fractal pattern. The Sierpinski triangle is a self-similar pattern composed of smaller equilateral triangles arranged in a larger equilateral triangle. The pattern is created by recursively removing the middle triangle from the larger triangle at each level of the fractal.
 
 In this program, the fractal pattern is created using asterisks (*) and spaces. The height (h) and level (l) of the fractal pattern are given as command line arguments. The program then prints the Sierpinski triangle pattern accordingly.
-```
 
