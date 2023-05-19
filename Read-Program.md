@@ -121,7 +121,8 @@ Here's an example of the output for height (h) = 7 and level (l) = 2:
 ## Program Output 1:
 As a basis of comparison, the output from the author's program for h = 7 and l = 2 is:
 
-![Sierpinski-rwb-read-7-2](https://github.com/rwbrennan/GPT4-Code/assets/19438964/486c3a46-afd0-41f5-ac1b-fe55e9f53c6b)
+![Sierpinski-rwb-read-7-2](https://github.com/rwbrennan/GPT4-Coding-Experiments/assets/19438964/f441b9ae-64ed-4d39-9ddc-f91383d73d5a)
+
 
 ## Prompt 2:
 ```
