@@ -5,9 +5,9 @@ The following experiments were performed using the OpenAI GPT-4 engine set at T 
 Can you print a Sierpinski triangle using asterisk characters using Python?
 ```
 ## Response 1:
-```
-Yes, you can print a Sierpinski triangle using asterisk characters in Python. Here's a simple example using recursion:
 
+Yes, you can print a Sierpinski triangle using asterisk characters in Python. Here's a simple example using recursion:
+```
 def sierpinski_triangle(n, x=0, y=0):
     if n == 1:
         return [(x, y)]
@@ -35,9 +35,9 @@ if __name__ == "__main__":
     size = 2 ** (n - 1)
     points = sierpinski_triangle(n)
     print_triangle(points, size)
-
-This code defines a function `sierpinski_triangle' that generates the points of a Sierpinski triangle of order `n`. The `print_triangle`function is used to print the asterisk characters at the positions of the generated points. Finally, the script calls these functions to generate and print a Sierpinski triangle of order 4. You can change the value of `n` to generate a larger or smaller triangle.
 ```
+This code defines a function 'sierpinski_triangle' that generates the points of a Sierpinski triangle of order 'n'. The 'print_triangle' function is used to print the asterisk characters at the positions of the generated points. Finally, the script calls these functions to generate and print a Sierpinski triangle of order 4. You can change the value of 'n' to generate a larger or smaller triangle.
+
 ## Program Output 1:
 The Prompt 1 completion ran with no errors, but produced triangles of varying height. The output for n = 1 is shown below:
 
@@ -48,9 +48,9 @@ The Prompt 1 completion ran with no errors, but produced triangles of varying he
 Can you modify this program to keep the height constant while allowing different orders?
 ```
 ## Response 2:
-```
-Sure, I can modify the program to keep the height constant while allowing different orders. Here's the modified code:
 
+Sure, I can modify the program to keep the height constant while allowing different orders. Here's the modified code:
+```
 def sierpinski_triangle(height, order, x=0, y=0):
     if order == 1:
         return [(x, y)]
@@ -79,11 +79,11 @@ if __name__ == "__main__":
     order = 4
     points = sierpinski_triangle(height, order)
     print_triangle(points, height)
-
-This code defines a function `sierpinski_triangle` that generates the points of a Sierpinski triangle of a given `height` and `order`. The `print_triangle` function is used to print the asterisk characters at the positions of the generated points. Finally, the script calls these functions to generate and print a Sierpinski triangle.
-
-You can change the `height` and `order` variables to generate a Sierpinski triangle of the desired size and order. Note that the height should be a power of 2 for the triangle to be displayed correctly.
 ```
+This code defines a function 'sierpinski_triangle' that generates the points of a Sierpinski triangle of a given `height` and `order`. The 'print_triangle' function is used to print the asterisk characters at the positions of the generated points. Finally, the script calls these functions to generate and print a Sierpinski triangle.
+
+You can change the 'height' and 'order' variables to generate a Sierpinski triangle of the desired size and order. Note that the height should be a power of 2 for the triangle to be displayed correctly.
+
 ## Program Output 2:
 The Prompt 2 completion ran with no errors and generated the output shown below:
 ### n = 1
@@ -98,9 +98,8 @@ The Prompt 2 completion ran with no errors and generated the output shown below:
 Can you fill in the triangles with asterisks to make the orders clearer?
 ```
 ## Response 3:
-```
 Sure, I can modify the program to fill in the triangles with asterisks to make the orders clearer. Here's the modified code:
-
+```
 def filled_triangle(height, x, y):
     points = []
     for i in range(height):
@@ -136,11 +135,11 @@ if __name__ == "__main__":
     order = 4
     points = sierpinski_triangle(height, order)
     print_triangle(points, height)
-
-This code defines a function `filled_triangle` that generates the points of a filled triangle of a given `height` with the top point at position `(x, y)`. The `sierpinski_triangle` function is modified to use the `filled_triangle` function when the order is 1. The other parts of the code remain the same.
-
-You can change the `height` and `order` variables to generate a Sierpinski triangle of the desired size and order. Note that the height should be a power of 2 for the triangle to be displayed correctly.
 ```
+This code defines a function 'filled_triangle' that generates the points of a filled triangle of a given 'height' with the top point at position '(x, y)'. The 'sierpinski_triangle' function is modified to use the 'filled_triangle' function when the order is 1. The other parts of the code remain the same.
+
+You can change the 'height' and 'order' variables to generate a Sierpinski triangle of the desired size and order. Note that the height should be a power of 2 for the triangle to be displayed correctly.
+
 ## Program Output 3:
 The Prompt 3 completion ran with no errors and generated the output shown below:
 
@@ -156,9 +155,9 @@ The Prompt 3 completion ran with no errors and generated the output shown below:
 Can you make the triangles equilateral?
 ```
 ## Response 4:
-```
-To make the triangles equilateral, we need to adjust the x-spacing of the characters and the position of the triangles. Here's the modified code:
 
+To make the triangles equilateral, we need to adjust the x-spacing of the characters and the position of the triangles. Here's the modified code:
+```
 def filled_triangle(height, x, y):
     points = []
     for i in range(height):
@@ -195,11 +194,11 @@ if __name__ == "__main__":
     order = 4
     points = sierpinski_triangle(height, order)
     print_triangle(points, height)
-
-In this code, the `filled_triangle` function is modified to create equilateral triangles by adjusting the x-spacing of the characters. The `sierpinski_triangle` function is also modified to adjust the position of the triangles. The `print_triangle` function is modified to adjust the x-range for printing the characters.
-
-You can change the `height` and `order` variables to generate an equilateral Sierpinski triangle of the desired size and order. Note that the height should be a power of 2 for the triangle to be displayed correctly.
 ```
+In this code, the 'filled_triangle' function is modified to create equilateral triangles by adjusting the x-spacing of the characters. The 'sierpinski_triangle' function is also modified to adjust the position of the triangles. The 'print_triangle' function is modified to adjust the x-range for printing the characters.
+
+You can change the 'height' and 'order' variables to generate an equilateral Sierpinski triangle of the desired size and order. Note that the height should be a power of 2 for the triangle to be displayed correctly.
+
 ## Program Output 4:
 The Prompt 3 completion ran with no errors and generated the output shown below:
 ### n = 1
