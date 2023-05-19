@@ -20,3 +20,6 @@ The first set of experiments focus on generating Sierpinski triangles on the ter
 
 ### Python program generation results
 GPT-4 was able to generate a successful solution, however the program had to be refined by providing GPT-4 with a series of prompts to lead it to the desired solution. 
+
+### Python program interpretation results
+GPT-4 was able to correctly describe the behaviour of the author's program. As well, GPT-4 provided an example output that was visually correct for a triangle with height = 7 and fractal level = 4. However, the output differed from the author's in the number of asterisks used: the author's used 18, while GPT-4 used 14. 
